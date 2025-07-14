@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #66c4ae;
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    width: fit-content;
+    margin: auto;
+    color: white;
+}
+
+button {
+    width: fit-content;
+    margin: 5px auto;
+    padding: 8px 30px;
+    background-color: #2b896b;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#grid-container {
+    width: 650px;
+    height: 650px;
+    border: 2px solid white;
+    margin: 15px auto;
+}
