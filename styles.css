@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     background-color: #66c4ae;
     font-family: Tahoma, sans-serif;
     text-align: center;
@@ -28,6 +27,13 @@ button {
 #grid-container {
     width: 650px;
     height: 650px;
-    border: 2px solid white;
+    border: 5px solid #2b896b;
     margin: 15px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-div {
+    margin: 0;
+    background-color: #e6f5ee;
 }
